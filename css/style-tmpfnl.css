@@ -1,0 +1,12 @@
+body{
+	background-color: #000;
+}
+
+.fondo{
+width:auto;
+height: 1860px;
+background-image: url(../Original/template.png);
+background-repeat:no-repeat;
+background-position: center;
+margin:0 auto;
+}

@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'akzidenz-grotesk_bq_condensBd';
+    src: url('../fonts/akzidenzgrotesk-boldcondalt-webfont.eot');
+    src: url('../fonts/akzidenzgrotesk-boldcondalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidenzgrotesk-boldcondalt-webfont.woff2') format('woff2'),
+         url('../fonts/akzidenzgrotesk-boldcondalt-webfont.woff') format('woff'),
+         url('../fonts/akzidenzgrotesk-boldcondalt-webfont.ttf') format('truetype'),
+         url('../fonts/akzidenzgrotesk-boldcondalt-webfont.svg#akzidenz-grotesk_bq_condensBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'squada_oneregular';
+    src: url('../fonts/squadaone-regular-webfont.eot');
+    src: url('../fonts/squadaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/squadaone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/squadaone-regular-webfont.woff') format('woff'),
+         url('../fonts/squadaone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/squadaone-regular-webfont.svg#squada_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('../fonts/notosans-regular-webfont.eot');
+    src: url('../fonts/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/notosans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/notosans-regular-webfont.woff') format('woff'),
+         url('../fonts/notosans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-area{
+	width: 100%;
+	float:left;
+	background-color: #fff;/*color temporal*/
+	min-height: 30px;
+}
+
+.wrap{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: rgba(255,255,255);/*color temporal*/
+	width: 100%;
+	float: left;
+	min-height: 30px;
+}
+
+.content-area{
+	background-color: #101014;
+	background-image: url(../img/bcg-content.jpg);
+	width: 100%;
+	float:left;
+	min-height: 620px;
+}
+
+.content{
+	width: 100%;
+	float: left;
+	min-height: 100px;
+}
+
+.games-area{
+	width: 100%;
+	float:left;
+	background-color: #fff;/*color temporal*/
+	min-height: 100px;
+}
+
+.games{
+	background-color: #fff;/*color temporal*/
+	width: 100%;
+	float: left;
+	min-height: 100px;
+}
+.register-area{
+	width: 100%;
+	float:left;
+	background-color: #F2F2F2;/*color temporal*/
+	min-height: 300px;
+}
+
+.register{
+	background-color: #f2f2f2;/*color temporal*/
+	width: 100%;
+	float: left;
+	min-height: 300px;
+}
+.footer-area{
+	width: 100%;
+	float:left;
+	background-color: #101014;/*color temporal*/
+	min-height: 140px;
+}
+
+.footer{
+	background-color: #101014;/*color temporal*/
+	width: 100%;
+	float: left;
+	min-height: 140px;
+}
+
+/*** Diseño Header ***/
+.logo{width:220px; height: 60px; background-color:#fff; float: left;}
+.logo img{ margin-top: 6px;margin-bottom: 6px; margin-left: 0px;}
+.menu{width:700px; height: 60px; background-color:#fff;margin:0 auto;float:left;padding:0;}
+.menu ul {width: 100%}
+.menu ul li a{float:left; padding:19px 50px;font-family: 'squada_oneregular'; font-size:18px; text-decoration:none; color:#6441A5;-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;}
+.menu ul li a:hover{background-color: #6441A5;color: #fff}
+/*** Diseño Header ***/
+
+/*** Diseño Content ***/
+.slide{width:100%;height: 380px; background-color: transparent;margin-top: 77px}
+.kickassfanart{width:300px; height:55px;font-size:30px;font-family: 'akzidenz-grotesk_bq_condensBd';font-weight: 400;color:#CCAAFF;padding: 8px 0;}
+.fanart{width:100%; height:80px; background-color: transparent;}
+.f1{width:140px; height: 80px;float: left;margin-right:20px;background-color: #6441A5;}
+.f1:nth-child(6){margin:0;}
+.f1 a:hover img{opacity: .5;}
+
+.kickass{width:300px; height:55px;font-size:30px;font-family: 'akzidenz-grotesk_bq_condensBd';font-weight: 400;color:#6441A5;padding-top: 10px;margin:10px 0;}
+.reviews{width:700px; height:350px; background-color: #000;float: left;display: block}
+.menu_review{ width:100%; height: 50px; background-color: #000;}
+.menu_review ul{float:left; width:100%;background-color: #fff;height:50px;margin:0;}
+.menu_review ul li{width:222px;float:left;height:50px;margin:0;}
+.menu_review ul li a{width:222px; float:left; height: 50px;background-color:#6441A5;text-align: center;line-height: 45px;font-family: 'akzidenz-grotesk_bq_condensBd';color:#fff;font-size: 22px;text-decoration: none;}
+.menu_review ul li a:hover{opacity: .7;}
+.menu_review ul li:nth-child(2){margin:0 20px;}
+.mapa{width:100%;height:300px;}
+.socialnet{width:220px; height:350px; /*background-color: #FFFF66;*/float: left;margin-left:20px;}
+.social{/*background-color: #B59100;*/width:78px;height: 78px;margin:30px auto}
+.social a img:hover{transition:.3s;transform:rotate(360deg);}
+.juegos{width: 940px; height: 240px; /*background-color: #FFFF66;*/display:block; float:left;margin:20px 0; margin-bottom: 20px}
+.juego {float:left;width: 140px;height: 240px;/* background-color: #FFCC00;*/ margin: 0 20px 0 0;}
+.img{width:140px; height: 196px;/*background-color: #B59100;*/}
+.gamestext a, .views{font-family: 'noto_sansregular'; color:#000000; font-size: 12px; text-decoration: none;}
+.views{font-size: 10px;color:#808080;}
+#fin{margin:0;}
+/*** Diseño Content ***/
+
+/*** Diseño Register ***/
+.register_box{width:100%;height:185px; margin:50px 0 0 0;}
+.dont_accnt{width:100%;font-family: 'noto_sansregular';font-size: 27px;}
+.contact_form {width: 100%; height: 180px}
+.contact_form ul{float: left;margin:20px 0 0 0;width:100%;}
+.contact_form ul li{float: left; padding-right: 20px}
+.contact_form .agree{font-size: 11px;margin: 10px 0 0 0; width: 100%;float:left;}
+.contact_form button{margin:10px 0 0 0}
+
+/*** Diseño Register ***/
+
+/*** Footer ***/
+.contfooter{/*background-color: #FFFF66;*/width:100%;height:55px;margin-top: 50px;background-image: url(../img/control_icon.png);background-repeat: no-repeat;padding-left:35px;}
+.contfooter li a{display: block;float:left;padding:0 15px;font-family: 'noto_sansregular';font-weight: 700; color:#EFEFEF; text-decoration: none}
+.last_text{padding-left: 15px; color:#999999;font-family:'noto_sansregular';font-size:12px}
+/*** Footer ***/
+
+
+/*** Responsive ***/
+
+@media (max-width: 768px) { 
+	.wrap{width:90%;}
+	.slide{width: 100%;height: 100%}
+	.slide img{width:100%;}
+	.menu{width:100%}
+	.menu ul {width:100%;}
+	.menu ul li a{float:left; width:25%;height:60px;text-align: center;padding:19px 0px}
+	.juegos,.reviews{width:100%;height:100%;}
+	.f1{margin: 10px}
+	.f1:nth-child(6){margin:10px;}
+	.logo{width: 100%; text-align: center;margin-top:5px;}
+	.socialnet{width:100%; height: 120px;}
+	.social{height: 90px;width: 90px;margin: 20px;float: left;padding: 5px;}
+}
+
+@media (max-width: 703px) { 
+	.fanart{width:100%;height:100%;margin:0 auto;float:left;text-align: center}
+	.center_box_fanart{width:90%;height:100%;margin:0 5%;float:left;text-align: center}
+}
+/*** Responsive ***/
